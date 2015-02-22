@@ -14,6 +14,7 @@
 		F44BB0F31A98E413001FC172 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44BB0F21A98E413001FC172 /* Images.xcassets */; };
 		F44BB0F61A98E413001FC172 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F44BB0F41A98E413001FC172 /* LaunchScreen.xib */; };
 		F44BB1021A98E413001FC172 /* JobTimeLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F44BB1011A98E413001FC172 /* JobTimeLoggerTests.m */; };
+		F44BB10D1A98F778001FC172 /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F44BB10C1A98F778001FC172 /* LogViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F44BB0FB1A98E413001FC172 /* JobTimeLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobTimeLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44BB1001A98E413001FC172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F44BB1011A98E413001FC172 /* JobTimeLoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobTimeLoggerTests.m; sourceTree = "<group>"; };
+		F44BB10B1A98F778001FC172 /* LogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogViewController.h; sourceTree = "<group>"; };
+		F44BB10C1A98F778001FC172 /* LogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				F44BB0EC1A98E413001FC172 /* ViewController.h */,
 				F44BB0ED1A98E413001FC172 /* ViewController.m */,
 				F44BB0EF1A98E413001FC172 /* Main.storyboard */,
+				F44BB10B1A98F778001FC172 /* LogViewController.h */,
+				F44BB10C1A98F778001FC172 /* LogViewController.m */,
 				F44BB0F21A98E413001FC172 /* Images.xcassets */,
 				F44BB0F41A98E413001FC172 /* LaunchScreen.xib */,
 				F44BB0E51A98E413001FC172 /* Supporting Files */,
@@ -222,6 +227,7 @@
 				F44BB0EE1A98E413001FC172 /* ViewController.m in Sources */,
 				F44BB0EB1A98E413001FC172 /* AppDelegate.m in Sources */,
 				F44BB0E81A98E413001FC172 /* main.m in Sources */,
+				F44BB10D1A98F778001FC172 /* LogViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
